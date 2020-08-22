@@ -1,38 +1,45 @@
+html{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23F0C7;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#quote-box{
+  color: #1a1b31;
+  margin: 0;
+  text-align: center;
+  background-color: #EF767A;
+  border-radius: 10%;
+  /* max-width: 50%; */
+  width: 1000px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+text-decoration: none;
+padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#social{
+  margin: 3%;
+  text-align: center;
+}
+#quote{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'Poller One', cursive;
+  font-weight: 200;
+  padding: 10%;
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
 }
