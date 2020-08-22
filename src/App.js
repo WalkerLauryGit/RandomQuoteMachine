@@ -14,7 +14,7 @@ function App() {
         <QuoteContainer/>
         
         <div id="social">
-          <a target='_blank' href='https://twitter.com/intent/tweet'>Tweet this quote</a>
+          <a target='_blank' rel="noopener noreferrer" href='https://twitter.com/intent/tweet'>Tweet this quote</a>
         </div>
       </div>
     </div>
