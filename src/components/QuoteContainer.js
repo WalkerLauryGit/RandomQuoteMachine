@@ -33,7 +33,7 @@ export default class QuoteContainer extends Component {
           <button id="new-quote" onClick={this.newQuote.bind(this)}>New Quote</button>
           </div>
         <div id="social">
-          <a target='_blank' rel="noopener noreferrer" href={'https://twitter.com/intent/tweet?text=' + this.state.quote}>Tweet this quote</a>
+          <a target='_blank' rel="noopener noreferrer" href={'https://twitter.com/intent/tweet?text=' + this.state.quote + ' - ' + this.state.author}>Tweet this quote</a>
         </div>
         </div>        
         )
